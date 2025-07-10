@@ -19,6 +19,10 @@ A simple app displaying a pizza menu with different items and prices, using Reac
 
 ---
 
+### Challenge 1: 🕒 Commit History
+
+- Completed Challenge one. Made a Card with react.
+
 ## 📚 Technologies Used
 
 - React (with Vite)
