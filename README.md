@@ -22,6 +22,7 @@ A simple app displaying a pizza menu with different items and prices, using Reac
 #### Project 2: 🕒 Commit History
 
 - **First commit:** Setup Vite + React project for Second Project.
+- **Second commit:** Created the static part of the `Steps` application.
 
 ---
 
