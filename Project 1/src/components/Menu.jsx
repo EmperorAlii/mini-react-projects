@@ -5,28 +5,27 @@ import Funghi from "../assets/pizzas/Funghi.jpg";
 import { pizzaData } from "../App";
 
 const Menu = () => {
+  const pizzas = pizzaData;
+
   return (
     <>
       <main className="menu">
         <h2>Our Menu</h2>
-        <ul className="pizzas">
-          {pizzaData.map((pizza) => (
-            <Pizza pizzaObj={pizza} key={pizza.name} />
-          ))}
-        </ul>
-        {/* <Pizza
-          name="Pizza Spinaci"
-          ingredients="Tomato, mozarella, spinach, and ricotta cheese"
-          photoName={spinaci}
-          price={10}
-        />
 
-        <Pizza
-          name="Pizza Funghi"
-          ingredients="Tomato, mozarella, mushrooms, and onion"
-          photoName={Funghi}
-          price={12}
-        /> */}
+        {pizzas.length > 0 ? (
+          <>
+            <p>
+              Authentic Italian cuisine. 6 creative dishes to choose from. All
+              from our stone oven, all organic, all delicious
+            </p>
+
+            <ul className="pizzas">
+              {pizzaData.map((pizza) => (
+                <Pizza pizzaObj={pizza} key={pizza.name} />
+              ))}
+            </ul>
+          </>
+        ) : null}
       </main>
     </>
   );

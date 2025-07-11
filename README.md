@@ -16,7 +16,8 @@ A simple app displaying a pizza menu with different items and prices, using Reac
 
 - **First commit:** Setup Vite + React project for Pizza Menu.
 - **Second commit:** Created `Header`, `Footer`, `Menu`, `Pizza` component. Added `index.css` styles.
-- **Third commit:** Used list rendering with `Pizza` component. Added some styles
+- **Third commit:** Used list rendering with `Pizza` component. Added some styles.
+- **Fourth commit:** Completed the project.
 
 ---
 
