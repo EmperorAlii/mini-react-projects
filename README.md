@@ -32,6 +32,11 @@ A simple app displaying a pizza menu with different items and prices, using Reac
 
 - Completed Challenge one. Made a Card with react.
 
+### Challenge 2: 🕒 Commit History
+
+- Completed Challenge 2. Made a mini project for finding the day month and year for a specific date.
+  Used react useState Hook.
+
 ## 📚 Technologies Used
 
 - React (with Vite)
