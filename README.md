@@ -24,6 +24,7 @@ A simple app displaying a pizza menu with different items and prices, using Reac
 - **First commit:** Setup Vite + React project for Second Project.
 - **Second commit:** Created the static part of the `Steps` application.
 - **Third commit:** Used `useState` hook to update `previous` and `next` button.
+- **Fourth commit:** Completed Project 2.
 
 ---
 
